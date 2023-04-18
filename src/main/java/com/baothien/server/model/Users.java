@@ -6,12 +6,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class User {
+public class Users {
 	@Id
 	@SequenceGenerator(name = "user_sequence", sequenceName = "user_sequence", allocationSize = 1)
 	@GeneratedValue(generator = "user_sequence", strategy = GenerationType.SEQUENCE)

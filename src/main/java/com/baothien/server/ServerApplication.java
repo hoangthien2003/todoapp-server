@@ -9,10 +9,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EnableJpaRepositories("com.baothien.sever.repository")
-@ComponentScan({"com.baothien.server.controller",
-	"com.baothien.server.service",
-	"com.baothien.server.repository"})
 public class ServerApplication {
 
 	public static void main(String[] args) {
